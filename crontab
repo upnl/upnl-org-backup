@@ -1,0 +1,2 @@
+0 0 */3 * * . /app/env && /app/backup-db.sh >> /tmp/log 2>&1
+0 0 */5 * * /app/backup-upload.sh >> /tmp/log 2>&1
